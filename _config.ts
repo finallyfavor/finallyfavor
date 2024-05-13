@@ -7,6 +7,9 @@ import svgo from "lume/plugins/svgo.ts";
 
 const site = lume();
 
+site.copy("logo.svg");
+site.copy("logo.mp4");
+
 site.use(nav());
 site.use(picture());
 site.use(transform_images());
